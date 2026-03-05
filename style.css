@@ -195,6 +195,7 @@ a {
     margin: 8px 0;
     font-size: 16px;
 }
+
 .content-section h2 {
     font-size: 3rem;
     margin-bottom: 3rem;
@@ -275,7 +276,7 @@ a {
     background: var(--background-medium);
     padding: 3rem;
     border-radius: 15px;
-    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.5);
+    box-shadow: 0 10px 25px rgba(116, 112, 112, 0.5);
     text-align: left;
 }
 
@@ -314,19 +315,27 @@ a {
 .submit-button {
     margin-top: 1rem;
 }
-
-footer {
-    background: #0d0d0d;
-    color: #888;
-    text-align: center;
-    padding: 2rem 5%;
-    font-size: 0.95rem;
-    border-top: 5px solid var(--accent-color);
+footer{
+text-align:center;
+padding:20px;
+background:#111;
+color:white;
 }
 
-footer a {
-    color: var(--primary-color);
-    margin: 0 0.8rem;
+.footer-links{
+display:flex;
+justify-content:center;
+gap:25px;
+margin-top:10px;
+}
+
+.footer-links a{
+color:white;
+text-decoration:none;
+font-size:16px;
+display:flex;
+align-items:center;
+gap:5px;
 }
 
 footer a:hover {
