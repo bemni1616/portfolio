@@ -364,7 +364,7 @@ footer a:hover {
         padding: 1rem 5%;
     }
     
-    .nav-list {
+   /* .nav-list {
         gap: 0.8rem;
         flex-wrap: wrap;
         justify-content: center;
@@ -376,5 +376,17 @@ footer a:hover {
     
     .content-section {
         padding: 4rem 5%;
+    }*/
+    @media (max-width:768px) {
+        .main-nav{
+            flex-direction: column;
+        }
+        .content{
+            padding: 10px;
+        }
+        h1{
+            font-size: 24px;
+        }
+        
     }
 }
